@@ -128,143 +128,72 @@
      <section class="i-form-section m-4">
         <div class="container">
             <h2 class="text-center" id="form">Quick Quote</h2>
-            <form class="mt-4">
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <label for="name">Name <span>(Required)</span></label>
-                        <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="address">Full Address <span>(Required)</span></label>
-                        <input type="text" id="address" class="form-control" placeholder="Enter your address" required>
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <label for="contact">Contact Number <span>(Required)</span></label>
-                        <input type="text" id="contact" class="form-control" placeholder="Enter your contact number" required>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="email">Email <span>(Required)</span></label>
-                        <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <label for="ctp">CTP Insurance start date/renewal date <span>(Required)</span></label>
-                        <input type="date" id="ctp" class="form-control" required>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="billing">Billing Number <span>(Required)</span></label>
-                        <input type="text" id="billing" class="form-control" placeholder="Enter your billing number" required>
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <label for="plate">Plate Number <span>(Required)</span></label>
-                        <input type="text" id="plate" class="form-control" placeholder="Enter plate number" required>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="vin">VIN number/Chassis number <span>(Required)</span></label>
-                        <input type="text" id="vin" class="form-control" placeholder="Enter VIN/Chassis number" required>
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <label for="customer">Customer number <span>(Required)</span></label>
-                        <input type="text" id="customer" class="form-control" placeholder="Enter customer number" required>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="vehicle">Is the vehicle <span>(Required)</span></label>
-                        <select id="vehicle" class="form-select" required>
-                            <option value="">Please Select</option>
-                            <option value="private">Private</option>
-                            <option value="commercial">Commercial</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="divider"></div>
-                <h2 class="text-center mb-4">Vehicle details</h2>
-
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <label for="manufacture-year">Year of manufacture? (refer RMS registration paper)<span>(Required)</span></label>
-                        <input type="text" id="manufacture-year" class="form-control" placeholder="Enter year of manufacture" required>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="make">Make of vehicle? <span>(Required)</span></label>
-                        <input type="text" id="make" class="form-control" placeholder="Enter make of vehicle" required>
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <label for="shape">Vehicle shape? (this is noted as a 3-letter code on the bottom of your registration paper)<span>(Required)</span></label>
-                        <input type="text" id="shape" class="form-control" placeholder="Enter vehicle shape" required>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="gvm">Vehicle GVM <span>(Required)</span></label>
-                        <select id="gvm" class="form-select" required>
-                            <option value="">Please Select</option>
-                            <option value="yes">Yes</option>
-                            <option value="no">No</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <label for="gvm">Vehicle usage? (this is noted as a 4-letter code on the bottom of your RMS papers) <span>(Required)</span></label>
-                        <select id="gvm" class="form-select" required>
-                            <option value="">Please Select</option>
-                            <option value="yes">Yes</option>
-                            <option value="no">No</option>
-                        </select>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="postcode">At what postcode do you garage the vehicle? <span>(Required)</span></label>
-                        <input type="text" id="postcode" class="form-control" placeholder="Enter postcode" required>
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <label for="suburb">At what suburb do you garage the vehicle? <span>(Required)</span></label>
-                        <input type="text" id="suburb" class="form-control" placeholder="Enter suburb" required>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="customer-type">What type of customer are you? <span>(Required)</span></label>
-                        <select id="customer-type" class="form-select" required>
-                            <option value="">Please Select</option>
-                            <option value="individual">Individual / sole trader</option>
-                            <option value="company">Company</option>
-                            <option value="used car dealer">Used Car Dealer</option>
-                            <option value="fleet">Fleet</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <label for="customer-type">Fleet What duration of insurance would you like?                            <span>(Required)</span></label>
-                        <select id="customer-type" class="form-select" required>
-                            <option value="">Please Select</option>
-                            <option value="12 months">12 Months</option>
-                            <option value="6 months">6 Months</option>
-                        </select>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="tax-credit">Are you entitled to an input tax credit? <span>(Required)</span></label>
-                        <select id="tax-credit" class="form-select" required>
-                            <option value="yes">Yes</option>
-                            <option value="no">No</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                <div class="g-recaptcha" data-sitekey="6LeD8O8qAAAAAMN-eToE06IX0wCjzjgaLl5J5sxz"></div>
-            </div>
+            <form action="zoho/forms/indexquote.php" method="post" class="p-2">
+                <h4 class="text-center mb-4">REQUEST A QUOTE</h4>
                 <div class="row">
-                    <div class="col-12 text-center">
-                        <button type="submit" class="btn">Submit</button>
+                    <div class="col-12 col-md-6 mb-3">
+                        <input type="text" class="form-control border-dark" name="name" placeholder="Full Name *" required>
                     </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <input type="text" class="form-control border-dark" name="company" placeholder="Company Name (if any)">
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-3">
+                        <input type="email" class="form-control border-dark" name="email" placeholder="Email ID *" required>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <input type="text" class="form-control border-dark" name="phone" placeholder="Contact Number *" required>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <input type="text" class="form-control border-dark" name="occupation" placeholder="Occupation *" required>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <textarea class="form-control border-dark" name="equipment_details" placeholder="Full details of Equipment/Machinery *" rows="5" required></textarea>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-3">
+                        <select class="form-control border-dark" name="current-insurance" required>
+                            <option value="">Do you currently have insurance ? *</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <select class="form-control border-dark" name="public-liability" required>
+                            <option value="">Public Liability Coverage *</option>
+                            <option value="not-required">Not Required</option>
+                            <option value="10m">$10M</option>
+                            <option value="20m">$20M</option>
+                        </select>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <select class="form-control border-dark" name="require-finance" required>
+                            <option value="">Do you require finance ? *</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                </div>
+            
+                <div class="col-md-12 text-center">
+                    <div class="g-recaptcha" data-sitekey="6LeD8O8qAAAAAMN-eToE06IX0wCjzjgaLl5J5sxz"></div>
+                </div>
+            
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn text-white px-4" style="background-color:#E64A19">Submit</button>
                 </div>
             </form>
         </div>
