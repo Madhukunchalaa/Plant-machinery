@@ -1,0 +1,46 @@
+.i-form-section {
+    padding: 60px 20px;
+}
+
+.i-form-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+    color: black;
+}
+
+.i-form-section label {
+    color:black;
+    font-size: 0.9rem;
+}
+
+.i-form-section label span {
+    color: #f00; /* Red for required fields */
+}
+
+.i-form-section .form-control,
+.i-form-section .form-select {
+    
+    border: 1px solid #555; /* Border color */
+     /* Field text color */
+}
+
+.i-form-section .form-control::placeholder {
+    color: #888; /* Placeholder color */
+}
+
+.i-form-section .btn {
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+}
+
+.i-form-section .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.divider {
+    border-top: 1px solid #555; /* Divider color */
+    margin: 30px 0;
+}

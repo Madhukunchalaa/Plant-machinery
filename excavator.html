@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insurance Page</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2097aac339.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  
+  <link rel="icon" type="image/x-icon" href="assets/pm-icons/Asset 1ddvfbv.png">
+   <script src="https://www.google.com/recaptcha/api.js"></script>
+ 
+</head>
+<body>
+<!-- Navbar Section -->
+
+<nav class="navbar navbar-expand-lg bg-white">
+  <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="index.html">
+          <img src="assets/images/pmlogo.png" alt="Logo">
+      </a>
+      <!-- Hamburger Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                  <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                      <li><a class="dropdown-item" href="earth-moving-insurance.html">Earth Moving Insurance</a></li>
+                      <li><a class="dropdown-item" href="skid-steers-insurance.html">Skid Steers Insurance</a></li>
+                      <li><a class="dropdown-item" href="bulldozer.html">Bulldozer Insurance</a></li>
+                      <li><a class="dropdown-item" href="excavator.html">Excavator Insurance</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="claims.html">Claims</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+          </ul>
+          <!-- Call Button -->
+          <div class="ms-3 d-flex align-items-center">
+              <a class="get-quote-btn" href="contact.html">Get Quote</a>
+              <div class="ms-4 navbar-text">
+                  <i class="bi bi-headset"></i> NEED HELP? CALL US <br>
+                  <span class="phone-number"> <a  href="tel:1300 170 328">1300 170 328</a></span>
+              </div>
+          </div>
+      </div>
+  </div>
+</nav>
+
+    <section class="i-hero-excavator">
+        <div class="i-hero-overlay"></div>
+        <div class="i-hero-content container">
+            <h1>SECURE YOUR SUCCESS WITH <br>RELIABLE MACHINERY COVERAGE
+            </h1>
+            <p>Stay Prepared for the Unexpected and Minimize Financial Losses            </p>
+            <a href="#form" class="btn-custom">➜ Get Quote</a>
+        </div>
+    </section>
+    <a href="#form">
+        <div class="rqst-box">
+       REQUEST A QUOTE
+        </div>
+      </a>
+
+    <section class="service-why-section">
+        <div class="service-container">
+            <div class="service-row">
+                <div class="service-col">
+                    <div class="service-cards service-first-card">
+                        <i class="service-arrow">➜</i>
+                        <h2 class="service-heading">UNMATCHED GUARANTEED PROTECTION</h2>
+                    </div>
+                </div>
+                <div class="service-col">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img width="50" src="assets/pm-icons/instant.png" alt="">
+                        </div>
+                        <h5 class="service-title">Instant Quotes</h5>
+                        <p class="service-text">Get instant peace of mind with our excavator insurance quotes online. Get quick and accurate quotes tailored to your heavy machinery needs, right at your fingertips.</p>
+                    </div>
+                </div>
+                <div class="service-col">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img width="50" src="assets/pm-icons/continuces.png" alt="">
+                        </div>
+                        <h5 class="service-title">Continued Support</h5>
+                        <p class="service-text">With our excavator insurance, you're never alone. We provide continued support and expertise, ensuring your business stays protected every step of the way.</p>
+                    </div>
+                </div>
+                <div class="service-col">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img width="50" src="assets/pm-icons/quicker.png" alt="">
+                        </div>
+                        <h5 class="service-title">Quicker Claims</h5>
+                        <p class="service-text">Experience faster claims processing with Plantmachinery solutions. We understand the urgency, and our streamlined process ensures prompt resolution when you need it most.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="i-form-section m-4">
+        <div class="container">
+            <h2 class="text-center" id="form">Quick Quote</h2>
+            <form class="mt-4">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="name">Name <span>(Required)</span></label>
+                        <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="address">Full Address <span>(Required)</span></label>
+                        <input type="text" id="address" class="form-control" placeholder="Enter your address" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="contact">Contact Number <span>(Required)</span></label>
+                        <input type="text" id="contact" class="form-control" placeholder="Enter your contact number" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email">Email <span>(Required)</span></label>
+                        <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="ctp">CTP Insurance start date/renewal date <span>(Required)</span></label>
+                        <input type="date" id="ctp" class="form-control" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="billing">Billing Number <span>(Required)</span></label>
+                        <input type="text" id="billing" class="form-control" placeholder="Enter your billing number" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="plate">Plate Number <span>(Required)</span></label>
+                        <input type="text" id="plate" class="form-control" placeholder="Enter plate number" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="vin">VIN number/Chassis number <span>(Required)</span></label>
+                        <input type="text" id="vin" class="form-control" placeholder="Enter VIN/Chassis number" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="customer">Customer number <span>(Required)</span></label>
+                        <input type="text" id="customer" class="form-control" placeholder="Enter customer number" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="vehicle">Is the vehicle <span>(Required)</span></label>
+                        <select id="vehicle" class="form-select" required>
+                            <option value="">Please Select</option>
+                            <option value="private">Private</option>
+                            <option value="commercial">Commercial</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+                <h2 class="text-center mb-4">Vehicle details</h2>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="manufacture-year">Year of manufacture? (refer RMS registration paper)<span>(Required)</span></label>
+                        <input type="text" id="manufacture-year" class="form-control" placeholder="Enter year of manufacture" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="make">Make of vehicle? <span>(Required)</span></label>
+                        <input type="text" id="make" class="form-control" placeholder="Enter make of vehicle" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="shape">Vehicle shape? (this is noted as a 3-letter code on the bottom of your registration paper)<span>(Required)</span></label>
+                        <input type="text" id="shape" class="form-control" placeholder="Enter vehicle shape" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="gvm">Vehicle GVM <span>(Required)</span></label>
+                        <select id="gvm" class="form-select" required>
+                            <option value="">Please Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="gvm">Vehicle usage? (this is noted as a 4-letter code on the bottom of your RMS papers) <span>(Required)</span></label>
+                        <select id="gvm" class="form-select" required>
+                            <option value="">Please Select</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="postcode">At what postcode do you garage the vehicle? <span>(Required)</span></label>
+                        <input type="text" id="postcode" class="form-control" placeholder="Enter postcode" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="suburb">At what suburb do you garage the vehicle? <span>(Required)</span></label>
+                        <input type="text" id="suburb" class="form-control" placeholder="Enter suburb" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="customer-type">What type of customer are you? <span>(Required)</span></label>
+                        <select id="customer-type" class="form-select" required>
+                            <option value="">Please Select</option>
+                            <option value="individual">Individual / sole trader</option>
+                            <option value="company">Company</option>
+                            <option value="used car dealer">Used Car Dealer</option>
+                            <option value="fleet">Fleet</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="customer-type">Fleet What duration of insurance would you like?                            <span>(Required)</span></label>
+                        <select id="customer-type" class="form-select" required>
+                            <option value="">Please Select</option>
+                            <option value="12 months">12 Months</option>
+                            <option value="6 months">6 Months</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="tax-credit">Are you entitled to an input tax credit? <span>(Required)</span></label>
+                        <select id="tax-credit" class="form-select" required>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                <div class="g-recaptcha" data-sitekey="6LeD8O8qAAAAAMN-eToE06IX0wCjzjgaLl5J5sxz"></div>
+            </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="insurance-offer">
+        <div class="container">
+            <div class="background-pattern"></div>
+            <h2>What Insurance Do We Offer?</h2>
+            <p>No doubt, anyone in the civil, mining, construction, or landscaping industries can benefit from excavator equipment insurance.</p>
+            <div class="row g-4">
+                <div class="col-md-4 col-lg-4 mt-5 ">
+                    <div class="insurance-card">
+                        <div class="brxe-icon">
+                            <img src="assets/pm-icons/what insurance4/1.png" alt="">
+                        </div>
+                        <h5>Asset Protection</h5>
+                        <p>Excavator insurance can help you in protecting your costly and valuable machinery against any heavy financial losses, such as damage, theft, vandalism, or natural disaster.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 mt-5">
+                    <div class="insurance-card">
+                        <div class="brxe-icon">
+                            <img src="assets/pm-icons/what insurance4/2.png" alt="">
+                        </div>
+                        <h5>Liability Coverage</h5>
+                        <p>Excavator liability insurance protects you from legal claims or high costs, if your machinery has been involved in any damage or accident.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 mt-5">
+                    <div class="insurance-card">
+                        <div class="brxe-icon">
+                            <img src="assets/pm-icons/what insurance4/3.png" alt="">
+                        </div>
+                        <h5>Peace of Mind</h5>
+                        <p>Having excavator insurance will give you complete peace of mind because you don't have to worry about huge expenses or repair costs, even if any misshaping occurs.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 mt-5">
+                    <div class="insurance-card">
+                        <div class="brxe-icon">
+                            <img src="assets/pm-icons/what insurance4/4.png" alt="">
+                        </div>
+                        <h5>Legal Requirement Compliances</h5>
+                        <p>If you are living in a state, where excavator insurance is mandatory, then you must go for buying excavator insurance online. You might have to pay penalties or face legal consequences if you don't obey the rules.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 mt-5">
+                    <div class="insurance-card">
+                        <div class="brxe-icon">
+                            <img src="assets/pm-icons/what insurance4/5.png" alt="">
+                        </div>
+                        <h5>Risk Management</h5>
+                        <p>Buying excavator insurance online is a part of your business risk management. If you buy digger insurance, you can not only assess the risks but also provide yourself a financial safety to mitigate those risks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose-us">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <p>Unleash Your Excavator's Full Potential - Choose Plantmachinery Insurance for Excavator Coverage That Goes Beyond Expectations!            </p>
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <div class="feature row">
+
+                        <div class="col-10 rightc">
+                            <h5>Wet hire and dry hire                            </h5>
+                            <p>Benefit from our deep understanding of the earthmoving industry, ensuring specialized insurance solutions that meet your unique needs.                            </p>
+                        </div>
+                        <div class="col-2">
+                            <img src="assets/pm-icons/excavator/wet.png" style="width: 40px;" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="feature row">
+                        <div class="col-10 rightc">
+                            <h5>Comprehensive Public liability                            </h5>
+                            <p>Safeguard your business against third-party claims with our comprehensive public liability coverage tailored specifically for the excavation industry.                            </p>
+                        </div>
+                        <div class="col-2">
+                            <img src="assets/pm-icons/excavator/comprehensive.png" style="width: 40px;" alt="" srcset="">
+                        </div>
+
+                    </div>
+                    <div class="feature row">
+                        <div class="col-10 rightc">
+                            <h5>Machinery breakdown                            </h5>
+                            <p>Stay ahead of unexpected breakdowns with our specialized insurance, providing financial protection and minimizing downtime for your machinery.                            </p>
+                        </div>
+                        <div class="col-2">
+                            <img src="assets/pm-icons/excavator/machinery.png" style="width: 40px;" alt="" srcset="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="assets/images/excavator.png" alt="Earthmoving Equipment">
+                </div>
+                <div class="col-md-4">
+                    <div class="feature row">
+                        <div class="col-2">
+                            <img src="assets/pm-icons/excavator/theif.png" style="width: 40px;" alt="" srcset="">
+                        </div>
+                        <div class="col-10 leftc">
+                            <h5>Theft & damage                            </h5>
+                            <p>Rest easy knowing that our insurance covers theft and damage, allowing you to focus on your work without worrying about potential losses.                            </p>
+                        </div>
+                    </div>
+                    <div class="feature row">
+                        <div class="col-2">
+                            <img src="assets/pm-icons/excavator/broad.png" style="width: 40px;" alt="" srcset="">
+                        </div>
+                        <div class="col-10 leftc">
+                            <h5>Broadform liability                            </h5>
+                            <p>Get comprehensive protection with our broadform liability coverage, designed to address various liability risks specific to the excavation industry.                            </p>
+                        </div>
+                    </div>
+                    <div class="feature row">
+                        <div class="col-2">
+                            <img src="assets/pm-icons/excavator/equipment.png" style="width: 40px;" alt="" srcset="">
+                        </div>
+                        <div class="col-10 leftc">
+                            <h5>Equipment in transit                            </h5>
+                            <p>Ensure your equipment is protected even during transportation with our coverage for equipment in transit, minimizing the risks associated with relocation.                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="insurance-section">
+        <div class="container">
+            <h2 class="text-center">What's Under Our Umbrella: Our Comprehensive Coverage for Your Excavator Insurance Needs            </h2>
+            <p class="text-center">
+                From earthmoving giants to powerful cranes, our excavator insurance covers a wide range of equipment, ensuring complete protection. Plantmachinery offers
+            </p>
+            <div class="row" style="align-items: center;">
+                <div class="col-lg-6">
+                    <ul>
+                        <li><strong>Specialized Solutions</strong>: Tailored insurance solutions for industries such as construction, roofing works, landscaping, and more.</li>
+                        <li><strong>Australia Coverage</strong>: Services designed to meet the specific needs of businesses operating in Australia.</li>
+                        <li><strong>Wide Range of Coverage</strong>: Comprehensive coverage for various static and mobile plant, equipment, and machinery types, including:
+                          <ul style="margin-left: 20px; list-style:disc">
+                            <li style="margin-bottom: 5px;">Earthmoving and excavators</li>
+                            <li style="margin-bottom: 5px;">Cranes and lifting equipment</li>
+                            <li style="margin-bottom: 5px;">Construction and road work machines</li>
+                            <li style="margin-bottom: 5px;">Forklifts and bobcats</li>
+                            <li style="margin-bottom: 5px;">Concreting equipment (booms, line pumps, satellite pumps)</li>
+                          </ul>
+                        </li>
+                        <li><strong>Contractor’s Plant Machinery Insurance</strong>: Protection for valuable assets against unforeseen events.</li>
+                        <li><strong>Mobile Plant Insurance</strong>: Specialized coverage for on-the-move machinery, ensuring comprehensive protection wherever your equipment goes.</li>
+                        <li><strong>Fixed Plant Insurance</strong>: Tailored insurance solutions for stationary machinery and equipment, minimizing risks and maximizing peace of mind.</li>
+                        <li><strong>Equipment Insurance</strong>: Comprehensive coverage for essential tools and specialized equipment, ensuring protection against unforeseen events.</li>
+                      </ul>
+                      
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="images-wrapper">
+                        <img src="assets/images/constrion.png" class="img-fluid" alt="Construction Image 1">
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <p class="text-note">
+                Trust Plantmachinery Insurance to provide you with the specialized coverage you need to keep your operations running smoothly.
+            </p>
+        </div>
+    </section>
+
+   
+
+
+    <!-- Payment Options Section -->
+    <section class="payment-section bg-light">
+        <div class="container">
+            <h3 class="fw-bold">Claim Solutions at Lightning Speed: Instant Relief and Quicker Claims Processing
+            </h3>
+            <p>
+                At Plantmachinery Insurance, we understand that when it comes to claims, time is a very important factor. That's why we've developed a streamlined process to provide instant relief and quicker claims processing. We believe in delivering prompt and efficient solutions, minimizing the disruption to your business and ensuring a seamless experience. With our dedicated claims team, we strive to resolve your claims with utmost speed, professionalism, and fairness.
+
+
+            </p>
+            <p>
+                Whether its property damage, theft, or any other covered incident, our goal is to provide you with the support and financial assistance you need, when you need it most. Experience the convenience and efficiency of our instant and quicker claims process, and let us take care of the rest while you focus on getting back on track.
+
+            </p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Our Client Testimonials</h2>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <!-- Slides -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="testimonial">
+                                <span class="quote">“</span>
+                                <p>I’ve been a loyal customer of Plant Machinery Insurance for years, and they
+                                    consistently exceed my expectations. Their efficient claims processing and excellent
+                                    customer service make them my go-to for skid steer insurance. Their team truly cares
+                                    about their clients and goes above and beyond to ensure we are protected. I
+                                    confidently recommend Plant Machinery to anyone looking for reliable skid steer
+                                    insurance.</p>
+                                <p class="author">David Brown, Perth, WA</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="testimonial">
+                                <span class="quote">“</span>
+                                <p>Plant Machinery Insurance has been my reliable partner in protecting my skid steer.
+                                    Their comprehensive coverage and prompt customer support give me peace of mind
+                                    during every project. They go the extra mile to ensure that I have the right
+                                    coverage, and their team is always available to answer my questions. I can’t imagine
+                                    insuring my skid steer with anyone else.</p>
+                                <p class="author">Emily Chen, Sydney, NSW</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="testimonial">
+                                <span class="quote">“</span>
+                                <p>I made the right choice choosing Plant Machinery for my skid steer insurance. Their
+                                    knowledgeable team took the time to understand my business and provided me with a
+                                    customized insurance plan that perfectly suits my needs. The expertise and support I
+                                    received from them were outstanding. I trust Plant Machinery to protect my skid
+                                    steer, and I highly recommend their services to others.</p>
+                                <p class="author">Mark Thompson, Brisbane, QLD</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="testimonial">
+                                <span class="quote">“</span>
+                                <p>Plant Machinery Insurance provided exceptional coverage for my skid steer. When my
+                                    equipment was damaged in an accident, their claims team acted swiftly and
+                                    professionally, making the whole claims process stress-free. Their attention to
+                                    detail and personalized service truly set them apart. I feel confident knowing my
+                                    skid steer investment is protected with Plant Machinery Insurance!</p>
+                                <p class="author">Sarah Johnson, Melbourne, VIC</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Faq Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="faq-title">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="faq-item">
+                    <h2>
+                        <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#faq1"
+                            aria-expanded="true" aria-controls="faq1">
+                            1. How do I choose the right coverage for my excavator or equipment?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="collapse show" data-bs-parent="#faqAccordion">
+                        <div class="faq-body">
+                            You don’t need to worry about what is the right coverage for your machinery or equipment. At Plantmachinery, our experienced team will work closely with you to understand your specific needs and provide tailored coverage options that best suit your requirements. We take into account factors such as the type of equipment, its value, and the nature of your operations to ensure comprehensive protection. Therefore, you get complete guidance and support from Plantmachinery to choose the right coverage.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h2>
+                        <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                            2. What factors can affect the cost of excavator insurance or digger insurance?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="collapse" data-bs-parent="#faqAccordion">
+                        <div class="faq-body">
+                            The cost of excavator insurance can be influenced by various factors, including the type and value of equipment, the level of coverage needed, your business location, past claims history, and the specific risks associated with your industry. At Plantmachinery, our team will assess these factors and provide you with competitive and transparent pricing options.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h2>
+                        <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                            3. What happens in case of equipment breakdown or damage?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="collapse" data-bs-parent="#faqAccordion">
+                        <div class="faq-body">
+                            At Plantmachinery Insurance, we provide coverage for a wide range of industries. Our insurance solutions cater to sectors such as construction, mining, landscaping, roofing works, civil engineering, and more. Whether you’re involved in earthmoving, crane operations, concrete pumping, or any other industry utilizing heavy machinery, our policies are designed to address the unique risks and challenges you face. Our goal is to ensure that businesses across various sectors can find the right insurance solutions to safeguard their equipment, assets, and liabilities.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h2>
+                        <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                            4. How do I claim in the event of an accident or equipment damage?
+                        </button>
+                    </h2>
+                    <div id="faq4" class="collapse" data-bs-parent="#faqAccordion">
+                        <div class="faq-body">
+                            In the event of an accident or equipment damage, you must first prioritize the safety of personnel and secure the site. Then, contact our claims department as soon as possible. Our dedicated claims team will guide you through the process and assist you in filing a claim, ensuring a smooth and efficient resolution to any issues you may encounter. Our claiming process is not only easy and hassle-free, but also instant and quick.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+    <script>
+      fetch('header.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('header').innerHTML = data);
+    
+      fetch('footer.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('footer').innerHTML = data);
+    </script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  </body>
+  </html>
+  

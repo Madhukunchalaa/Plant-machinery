@@ -1,0 +1,87 @@
+[24-Feb-2025 12:56:35 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"api_name":"Layout"},"message":"invalid data","status":"error"}]}
+[24-Feb-2025 12:58:57 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"api_name":"Layout"},"message":"invalid data","status":"error"}]}
+[24-Feb-2025 13:00:16 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"api_name":"Layout"},"message":"invalid data","status":"error"}]}
+[24-Feb-2025 13:07:45 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"api_name":"Layout"},"message":"invalid data","status":"error"}]}
+[24-Feb-2025 13:10:25 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"api_name":"Layout"},"message":"invalid data","status":"error"}]}
+[24-Feb-2025 13:15:39 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"api_name":"Layout"},"message":"invalid data","status":"error"}]}
+[24-Feb-2025 13:15:52 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"api_name":"Layout"},"message":"invalid data","status":"error"}]}
+[24-Feb-2025 13:18:14 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"api_name":"Layout"},"message":"invalid data","status":"error"}]}
+[24-Feb-2025 13:20:28 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"api_name":"Layout"},"message":"invalid data","status":"error"}]}
+[24-Feb-2025 13:20:42 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"api_name":"Layout"},"message":"invalid data","status":"error"}]}
+[24-Feb-2025 13:20:43 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"api_name":"Layout"},"message":"invalid data","status":"error"}]}
+[24-Feb-2025 13:23:38 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"api_name":"Layout"},"message":"invalid data","status":"error"}]}
+[24-Feb-2025 13:23:44 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"api_name":"Layout"},"message":"invalid data","status":"error"}]}
+[24-Feb-2025 13:33:53 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"api_name":"Layout"},"message":"invalid data","status":"error"}]}
+[25-Feb-2025 04:54:00 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"expected_data_type":"phone","api_name":"Phone"},"message":"invalid data","status":"error"}]}
+[25-Feb-2025 04:55:13 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"expected_data_type":"phone","api_name":"Phone"},"message":"invalid data","status":"error"}]}
+[25-Feb-2025 05:01:24 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"expected_data_type":"phone","api_name":"Phone"},"message":"invalid data","status":"error"}]}
+[25-Feb-2025 05:01:33 UTC] Zoho API Error (202): {"data":[{"code":"INVALID_DATA","details":{"expected_data_type":"phone","api_name":"Phone"},"message":"invalid data","status":"error"}]}
+[25-Feb-2025 05:04:49 UTC] Sending to Zoho: {"data":[{"Last_Name":"Madhu kunchala","Phone":"+611234567890","Email":"madhkunchala@gmail.com","Suburb":"telangana","Layout":{"name":"Standard","id":"58760000004939683"}}]}
+[25-Feb-2025 05:04:50 UTC] Zoho Response: {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"Address_Line1"},"message":"required field not found","status":"error"}]}
+[25-Feb-2025 05:04:50 UTC] Zoho API Error (202): {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"Address_Line1"},"message":"required field not found","status":"error"}]}
+[25-Feb-2025 05:04:50 UTC] Failed to add record to Zoho CRM
+[25-Feb-2025 05:05:01 UTC] Sending to Zoho: {"data":[{"Last_Name":"Madhu kunchala","Phone":"+611234567890","Email":"madhkunchala@gmail.com","Suburb":"telangana","Layout":{"name":"Standard","id":"58760000004939683"}}]}
+[25-Feb-2025 05:05:02 UTC] Zoho Response: {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"Address_Line1"},"message":"required field not found","status":"error"}]}
+[25-Feb-2025 05:05:02 UTC] Zoho API Error (202): {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"Address_Line1"},"message":"required field not found","status":"error"}]}
+[25-Feb-2025 05:05:02 UTC] Failed to add record to Zoho CRM
+[25-Feb-2025 05:07:01 UTC] Sending to Zoho: {"data":[{"Last_Name":"Madhu kunchala","Phone":"+611234567890","Email":"madhkunchala@gmail.com","Suburb":"telangana","Layout":{"name":"Standard","id":"58760000004939683"}}]}
+[25-Feb-2025 05:07:01 UTC] Zoho Response: {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"Address_Line1"},"message":"required field not found","status":"error"}]}
+[25-Feb-2025 05:07:01 UTC] Zoho API Error (202): {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"Address_Line1"},"message":"required field not found","status":"error"}]}
+[25-Feb-2025 05:07:01 UTC] Failed to add record to Zoho CRM
+[25-Feb-2025 05:08:27 UTC] Error refreshing token: {"error_description":"You have made too many requests continuously. Please try again after some time.","error":"Access Denied","status":"failure"}
+[25-Feb-2025 05:08:27 UTC] Error refreshing token: {"error_description":"You have made too many requests continuously. Please try again after some time.","error":"Access Denied","status":"failure"}
+[25-Feb-2025 05:08:27 UTC] Sending to Zoho: {"data":[{"Last_Name":"Madhu kunchala","Phone":"+611234567890","Email":"madhkunchala@gmail.com","Suburb":"telangana","Layout":{"name":"Standard","id":"58760000004939683"}}]}
+[25-Feb-2025 05:08:28 UTC] Zoho Response: {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"Address_Line1"},"message":"required field not found","status":"error"}]}
+[25-Feb-2025 05:08:28 UTC] Zoho API Error (202): {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"Address_Line1"},"message":"required field not found","status":"error"}]}
+[25-Feb-2025 05:08:28 UTC] Failed to add record to Zoho CRM
+[25-Feb-2025 05:08:56 UTC] Error refreshing token: {"error_description":"You have made too many requests continuously. Please try again after some time.","error":"Access Denied","status":"failure"}
+[25-Feb-2025 05:08:56 UTC] Error refreshing token: {"error_description":"You have made too many requests continuously. Please try again after some time.","error":"Access Denied","status":"failure"}
+[25-Feb-2025 05:08:56 UTC] Sending to Zoho: {"data":[{"Last_Name":"Madhu kunchala","Phone":"+611234567890","Email":"madhkunchala@gmail.com","Suburb":"telangana","Layout":{"name":"Standard","id":"58760000004939683"}}]}
+[25-Feb-2025 05:08:57 UTC] Zoho Response: {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"State_1"},"message":"required field not found","status":"error"}]}
+[25-Feb-2025 05:08:57 UTC] Zoho API Error (202): {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"State_1"},"message":"required field not found","status":"error"}]}
+[25-Feb-2025 05:08:57 UTC] Failed to add record to Zoho CRM
+[25-Feb-2025 05:09:49 UTC] Error refreshing token: {"error_description":"You have made too many requests continuously. Please try again after some time.","error":"Access Denied","status":"failure"}
+[25-Feb-2025 05:09:49 UTC] Error refreshing token: {"error_description":"You have made too many requests continuously. Please try again after some time.","error":"Access Denied","status":"failure"}
+[25-Feb-2025 05:09:49 UTC] Sending to Zoho: {"data":[{"Last_Name":"Madhu kunchala","Phone":"+611234567890","Email":"madhkunchala@gmail.com","Suburb":"telangana","Layout":{"name":"Standard","id":"58760000004939683"}}]}
+[25-Feb-2025 05:09:49 UTC] Zoho Response: {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"State_1"},"message":"required field not found","status":"error"}]}
+[25-Feb-2025 05:09:49 UTC] Zoho API Error (202): {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"State_1"},"message":"required field not found","status":"error"}]}
+[25-Feb-2025 05:09:49 UTC] Failed to add record to Zoho CRM
+[25-Feb-2025 05:10:06 UTC] Sending to Zoho: {"data":[{"Last_Name":"Madhu kunchala","Phone":"+611234567890","Email":"madhkunchala@gmail.com","Suburb":"telangana","Layout":{"name":"Standard","id":"58760000004939683"}}]}
+[25-Feb-2025 05:10:18 UTC] Zoho Response: {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"Post_Code"},"message":"required field not found","status":"error"}]}
+[25-Feb-2025 05:10:18 UTC] Zoho API Error (202): {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"Post_Code"},"message":"required field not found","status":"error"}]}
+[25-Feb-2025 05:10:18 UTC] Failed to add record to Zoho CRM
+[25-Feb-2025 05:11:23 UTC] Sending to Zoho: {"data":[{"Last_Name":"Madhu kunchala","Phone":"+611234567890","Email":"madhkunchala@gmail.com","Suburb":"telangana","Layout":{"name":"Standard","id":"58760000004939683"}}]}
+[25-Feb-2025 05:11:24 UTC] Zoho Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-02-25T10:41:24+05:30","Modified_By":{"name":"Lakshmi Narsimha","id":"58760000004774001"},"Created_Time":"2025-02-25T10:41:24+05:30","id":"58760000005365003","Created_By":{"name":"Lakshmi Narsimha","id":"58760000004774001"}},"message":"record added","status":"success"}]}
+[25-Feb-2025 06:27:07 UTC] PHP Notice:  Undefined variable: mappedData in /home/zibllams2105/public_html/dev.smartsolutionsdigi.com/pm/zoho/forms/indexquote2.php on line 43
+[25-Feb-2025 06:27:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/zibllams2105/public_html/dev.smartsolutionsdigi.com/pm/zoho/forms/indexquote2.php on line 30
+[25-Feb-2025 06:27:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/zibllams2105/public_html/dev.smartsolutionsdigi.com/pm/zoho/forms/indexquote2.php on line 31
+[25-Feb-2025 06:27:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/zibllams2105/public_html/dev.smartsolutionsdigi.com/pm/zoho/forms/indexquote2.php on line 32
+[25-Feb-2025 06:27:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/zibllams2105/public_html/dev.smartsolutionsdigi.com/pm/zoho/forms/indexquote2.php on line 33
+[25-Feb-2025 06:27:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/zibllams2105/public_html/dev.smartsolutionsdigi.com/pm/zoho/forms/indexquote2.php on line 34
+[25-Feb-2025 06:27:07 UTC] Database Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+[25-Feb-2025 11:24:03 UTC] PHP Notice:  Undefined variable: userEmail in /home/zibllams2105/public_html/dev.smartsolutionsdigi.com/pm/zoho/forms/earthmovingquote.php on line 133
+[25-Feb-2025 12:53:25 UTC] PHP Notice:  Undefined variable: userEmail in /home/zibllams2105/public_html/dev.smartsolutionsdigi.com/pm/zoho/forms/earthmovingquote.php on line 133
+[25-Feb-2025 13:03:01 UTC] PHP Notice:  Undefined variable: userEmail in /home/zibllams2105/public_html/dev.smartsolutionsdigi.com/pm/zoho/forms/earthmovingquote.php on line 133
+[25-Feb-2025 13:05:01 UTC] PHP Notice:  Undefined variable: userEmail in /home/zibllams2105/public_html/dev.smartsolutionsdigi.com/pm/zoho/forms/earthmovingquote.php on line 133
+[25-Feb-2025 13:10:21 UTC] PHP Notice:  Undefined variable: userEmail in /home/zibllams2105/public_html/dev.smartsolutionsdigi.com/pm/zoho/forms/earthmovingquote.php on line 133
+[25-Feb-2025 13:14:36 UTC] PHP Notice:  Undefined variable: userEmail in /home/zibllams2105/public_html/dev.smartsolutionsdigi.com/pm/zoho/forms/skidsteersquote.php on line 133
+[07-Mar-2025 05:42:03 UTC] Sending to Zoho: {"data":[{"Last_Name":"madhu","Phone":"+616384001692","Email":"mad@gmail.com","Suburb":"UwSFcwh5Wn","Layout":{"name":"Standard","id":"58760000004939683"}}]}
+[07-Mar-2025 05:42:04 UTC] Zoho Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-03-07T11:12:04+05:30","Modified_By":{"name":"Lakshmi Narsimha","id":"58760000004774001"},"Created_Time":"2025-03-07T11:12:04+05:30","id":"58760000005528005","Created_By":{"name":"Lakshmi Narsimha","id":"58760000004774001"}},"message":"record added","status":"success"}]}
+[07-Mar-2025 05:44:41 UTC] Sending to Zoho: {"data":[{"Last_Name":"madhu","Phone":"+616384001692","Email":"mad@gmail.com","Suburb":"UwSFcwh5Wn","Layout":{"name":"Standard","id":"58760000004939683"}}]}
+[07-Mar-2025 05:44:41 UTC] Zoho Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-03-07T11:14:41+05:30","Modified_By":{"name":"Lakshmi Narsimha","id":"58760000004774001"},"Created_Time":"2025-03-07T11:14:41+05:30","id":"58760000005529001","Created_By":{"name":"Lakshmi Narsimha","id":"58760000004774001"}},"message":"record added","status":"success"}]}
+[07-Mar-2025 05:45:46 UTC] Sending to Zoho: {"data":[{"Last_Name":"madhu","Phone":"+616384001692","Email":"mad@gmail.com","Suburb":"UwSFcwh5Wn","Layout":{"name":"Standard","id":"58760000004939683"}}]}
+[07-Mar-2025 05:45:47 UTC] Zoho Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-03-07T11:15:47+05:30","Modified_By":{"name":"Lakshmi Narsimha","id":"58760000004774001"},"Created_Time":"2025-03-07T11:15:47+05:30","id":"58760000005530001","Created_By":{"name":"Lakshmi Narsimha","id":"58760000004774001"}},"message":"record added","status":"success"}]}
+[07-Mar-2025 05:46:14 UTC] Sending to Zoho: {"data":[{"Last_Name":"madhu","Phone":"+616384001692","Email":"mad@gmail.com","Suburb":"UwSFcwh5Wn","Layout":{"name":"Standard","id":"58760000004939683"}}]}
+[07-Mar-2025 05:46:15 UTC] Zoho Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-03-07T11:16:15+05:30","Modified_By":{"name":"Lakshmi Narsimha","id":"58760000004774001"},"Created_Time":"2025-03-07T11:16:15+05:30","id":"58760000005529009","Created_By":{"name":"Lakshmi Narsimha","id":"58760000004774001"}},"message":"record added","status":"success"}]}
+[21-Mar-2025 12:23:54 UTC] Sending to Zoho: {"data":[{"Last_Name":"skid steers","Phone":"+61119764772","Email":"4v2zi@3o2r.com","Suburb":"","Layout":{"name":"Standard","id":"58760000004939683"}}]}
+[21-Mar-2025 12:23:54 UTC] Sending to Zoho: {"data":[{"Last_Name":"skid steers","Phone":"+61119764772","Email":"4v2zi@3o2r.com","Suburb":"","Layout":{"name":"Standard","id":"58760000004939683"}}]}
+[21-Mar-2025 12:23:55 UTC] Zoho Response: {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"Suburb"},"message":"required field not found","status":"error"}]}
+[21-Mar-2025 12:23:55 UTC] Zoho API Error (202): {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"Suburb"},"message":"required field not found","status":"error"}]}
+[21-Mar-2025 12:23:55 UTC] Failed to add record to Zoho CRM
+[21-Mar-2025 12:23:55 UTC] Zoho Response: {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"Suburb"},"message":"required field not found","status":"error"}]}
+[21-Mar-2025 12:23:55 UTC] Zoho API Error (202): {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"Suburb"},"message":"required field not found","status":"error"}]}
+[21-Mar-2025 12:23:55 UTC] Failed to add record to Zoho CRM
+[21-Mar-2025 12:23:56 UTC] Sending to Zoho: {"data":[{"Last_Name":"skid steers","Phone":"+61119764772","Email":"4v2zi@3o2r.com","Suburb":"","Layout":{"name":"Standard","id":"58760000004939683"}}]}
+[21-Mar-2025 12:23:56 UTC] Zoho Response: {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"Suburb"},"message":"required field not found","status":"error"}]}
+[21-Mar-2025 12:23:56 UTC] Zoho API Error (202): {"data":[{"code":"MANDATORY_NOT_FOUND","details":{"api_name":"Suburb"},"message":"required field not found","status":"error"}]}
+[21-Mar-2025 12:23:56 UTC] Failed to add record to Zoho CRM
